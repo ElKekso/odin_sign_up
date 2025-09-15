@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    align-items: stretch;
+}
+
+.picture_container {
+    background-image: url("../ressources/background.jpg");
+    flex-grow: 2;
+}
